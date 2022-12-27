@@ -209,7 +209,7 @@ main{
     width: 225px;
     height: 225px;
 }
-.product_price p{
+.product_price span{
     font-size: 18px;
     font-weight: 700;
     padding-top: 20px;
@@ -815,7 +815,7 @@ main{
     top: 43px;
     left: 340px;
 }
-.discounts form{
+.discounts input{
     margin-top: 20px;
 }
 .discounts input{
@@ -1140,6 +1140,9 @@ main{
     .cart_item{
         display: none;
     }
+    .online_store_line{
+        width: 130px;
+    }
     .cart img{
         padding-left: 15px;
         padding-top: 10px;
@@ -1194,7 +1197,7 @@ main{
         width: 95px;
         height: 44px;
     }
-    .product_price p{
+    .product_price span{
         margin-top: -7px;
     }
     .product_cart{
@@ -1552,6 +1555,7 @@ main{
     }
     .company_line{
         margin-left: 15px;
+        width: 100px;
     }
     .company_link{
         font-size: 12px;
@@ -1566,6 +1570,7 @@ main{
     }
     .job_line{
         margin-left: 16px;
+        width: 100px;
     }
     .job_link{
         font-size: 12px;
@@ -1586,7 +1591,7 @@ main{
     }
     .corp_line{
         margin-left: 1px;
-        width: 120px;
+        width: 130px;
     }
     .corp_link{
         font-size: 12px;
@@ -1606,7 +1611,7 @@ main{
     }
     .service_line{
         margin-left: 1px;
-        width: 120px;
+        width: 130px;
     }
     .service_link{
         font-size: 12px;
@@ -1711,7 +1716,7 @@ main{
         width: 75px;
         height: 44px;
     }
-    .product_price p{
+    .product_price span{
         margin-top: -7px;
     }
     .product_cart{
